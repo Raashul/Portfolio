@@ -1,0 +1,126 @@
+body{
+	font-family: "Open+Sans+Condensed", serif;
+	background-color: rgb(238,238,238);
+  margin: 0px
+  padding:0px;
+}
+
+.video-div{
+  position: relative;
+}
+
+video{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.box{
+  height: 200px;
+ width: 80%;
+  margin: 0 auto;
+  background : grey;
+  align-items: center;
+}
+
+.portfolio-div{
+  background-color: rgb(51,64,85);
+  margin: 0px;
+  display: flex;
+  color: white;
+}
+
+.introduction-div{
+ 	background-color: white;
+  padding: 20px 10px 10px 20px
+ }
+
+
+.home-screen{
+  margin-top: -30px;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: 100%;
+  
+  position: relative;
+
+}
+
+.intro-text{
+  font-size: 1.4em;
+  font-family: "Ubuntu", serif
+}
+
+ .jumbotron-content {
+    text-align: center;
+   
+  }
+
+.resume-button{
+  border-style: solid;
+  border-color: #00a3cc;
+  color: #00a3cc;
+}
+
+.main-body{
+  background-color: white;
+}
+
+.footer{
+  
+  background-color: rgb(253,205,59);
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+  
+}
+
+
+.contact{
+  background-color: rgb(238,239,229);
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+
+.footer-text{
+  font-family: "Delicious", serif;
+  font-size:1.5em;
+}
+
+.hover_icons a{
+  margin-left: 20px;
+  color: black;
+}
+
+.hover_icons a:hover{
+ font-size: 12px;
+}
+
+.form-group{
+  width: 50%;
+}
+
+.send-email-button{
+  display: inline-block;
+  height: auto;
+  font-size: 1.5em;
+  width: 15em;
+  line-height: 4.0rem;
+  border-radius: 5em;
+  color: #2A3A3F;
+  border: 2px solid #2A3A3F;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(238,239,229);
+}
+
