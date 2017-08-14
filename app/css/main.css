@@ -16,12 +16,31 @@ video{
 }
 
 .box{
-  height: 200px;
- width: 80%;
+  height: 300px;
+  width: 80%;
   margin: 0 auto;
-  background : grey;
   align-items: center;
+  background-size: 100% 100%;
 }
+
+.box:hover{
+  transform: scale(1.15,1.15);
+}
+
+#box1{
+  background-image: url("../images/project1.png");
+}
+
+#box2{
+  background-image: url("../images/project2.png");
+}
+
+#box4{
+  background-image: url("../images/github.png");
+  
+}
+
+
 
 .portfolio-div{
   background-color: rgb(51,64,85);
@@ -124,3 +143,47 @@ video{
   background-color: rgb(238,239,229);
 }
 
+.email-button{
+  color: rgb(116,158,241);
+}
+
+
+.gallery {
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  display: inline-block;
+
+}
+
+.gallery > div > img {
+  display: block;
+  width: 170px;
+  height: 120px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.5,1.5);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.instagram_title{
+  font-family: "Pacifico", "Roboto", Helvetica, Arial, sans-serif;
+  color: black;
+}

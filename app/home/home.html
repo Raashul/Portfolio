@@ -23,17 +23,42 @@
 		<div class="introduction-div">
 			<center><h2><strong>Introduction </strong><h2></center>
 			<p class="intro-text">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				In 2011, I took my first HTML and CSS class. It has been a romance ever since. <br> <br>
+				I am currently a rising junior at Caldwell University, NJ. I like build things that really connect with me. Although I've mostly worked with web development, I am a blank page, ready to learn anything that entices me. <br>
+				Right now, I am learning web development with React and Nodejs. I am also inclining towards Machine Learning and mobile development with React Native. 
 				<br>
 				<br>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				I am a foodie and an avid Chelsea FC supporter. 
 				<center>
-					<button type = "button" class="btn btn-default btn-lg resume-button" 
-						ng-click="resume_button()">
-					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>  Resume
-					</button>
+				<a ng-href="app/pdf/Resume.pdf" target="_blank" class="btn btn-default btn-lg resume-button">	<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a>
+
+
 				</center>
 			</p> 
+
+			<hr>
+
+			<center>
+			<div class="gallery cf">
+			  
+			  <div>
+			    <img src="app/images/img2.jpg" />
+			  </div>
+			  <div>
+			    <img src="app/images/img3.jpg" />
+			  </div>
+			  <div>
+			    <img src="app/images/img1.jpg" />
+			  </div>
+			  <div>
+			    <img src="app/images/img4.jpg" />
+			  </div>
+
+			  <a href="https://www.instagram.com/raashul_rajbhandari/" class="instagram_title" target="_blank"><h2 >Follow my life one picture at a time on  <i class="fa fa-instagram fa-1x" aria-hidden="true"></i> </h2> </a>
+			  
+			</div>
+
+			</center>
 
 	</div>
 
@@ -48,21 +73,30 @@
 
 				<div class="row">
 			  <div class="col-md-4">
-			  	<div class="box">
+			  	<a href="https://github.com/Raashul/Bookstore" target="_blank">
+			  	<div class="box" id="box1">
+			  	</div>
+			  	</a>
 			  	<br> <br>
-			  	</div>
-			  	<p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recentl</p>
+			  	<p>A web application for Caldwell University students. A student will post a course book in the page. Another student can see the post and contact the seller via email within the app.</p>
 			  </div>
+			 
+			  <div class="col-md-4">
+			   <a href="https://murmuring-shelf-55535.herokuapp.com/" target="_blank">
+			   <div class="box" id="box2">
+		  	</div>
+		  	</a> 
+		  	<br> <br>
+			  	<p>A web application that randomly picks a restaurant on the basis of your location. The query will display information such as direction, ratings, pictures, reviews, contacts and navigation.The technologies used is Node.js for server side and Angular.js/Bootstrap for the front end. Google Map API and Yelp API are used to send/ receive data.</p></div>
 			  <div class="col-md-4"><div class="box">
 			  	</div>
-			  	<p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recentl</p></div>
-			  <div class="col-md-4"><div class="box">
-			  	</div>
-			  	<p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recentl</p></div>
+			  	<br> <br>
+			  	<p>A nodejs based article/blog website using Express.js framwork. Used PassportJS and BcryptJS for user authentication, Mongobd for database storage</p></div>
 			</div>
 
-			 <div class="col-md-4"><div class="box">
-			  	</div>
+			 <a href="https://github.com/Raashul"><div class="col-md-4"><div class="box" id="box4">
+			  	</div> </a>
+			  	<br>
 			  	<p>Follow more of my work in Github.</p></div>
 			</div>
 
@@ -74,7 +108,7 @@
 <div class="contact">
 	<h1>Wanna get in touch personally?</h1>
 	<br>
-	<h1><u><a ng-click="show_email()">Email Me!</a></u></h1>
+	<h1><u><a href="mailto:rashul1996@gmail.comxw" class="email-button">Email Me!</a></u></h1>
 
 	<div ng-if="display_email_form">
 		<form class="" method="post" action="#">

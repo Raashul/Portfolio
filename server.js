@@ -42,38 +42,6 @@ else
 	// res.send(data);
 })
 
-app.post('/api/sendEmail', function(req, res){
-	var name 		= req.body.name;
-	var message	= req.body.message;
-
-	var transporter = nodemailer.createTransport({
-		service: 'Gmail',
-		auth:{
-			user: emailAuth.emailAuth.authEmail,
-			pass: emailAuth.emailAuth.authPassword
-		}
-	});
-
-	var mailOptions ={
-		from: 'emailAuth.emailAuth.authEmail',
-		to: emailAuth.emailAuth.sendto,
-		subject: 'From: ' + name,
-		html: message
-	};
-
-	transporter.sendMail(mailOptions, function(error, info){
-
-		if(error){
-			console.log(error);
-		}
-		else{
-			res.json(mailOptions);
-		}
-		transporter.close();
-
-	});
-
-});
 
 
 app.listen(process.env.PORT || 3000, function(){
