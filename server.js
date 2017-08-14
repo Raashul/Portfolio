@@ -6,7 +6,7 @@ var emailAuth 					=   require('./app/config/auth.js');
 var app 								= express();
 
 app.set('views', __dirname);
-app.engine('html', require('ejs').renderFile);
+///app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 app.use(bodyParser.json());
