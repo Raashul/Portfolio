@@ -43,11 +43,13 @@ video{
 
 
 .portfolio-div{
+  font-family: "Ubuntu", "Roboto", sans-serif;
   background-color: rgb(51,64,85);
   margin: 0px;
   display: flex;
   color: white;
 }
+
 
 .introduction-div{
  	background-color: white;
@@ -186,4 +188,10 @@ video{
 .instagram_title{
   font-family: "Pacifico", "Roboto", Helvetica, Arial, sans-serif;
   color: black;
+}
+
+.project-title{
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
 }
