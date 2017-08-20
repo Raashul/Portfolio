@@ -5,6 +5,31 @@ body{
   padding:0px;
 }
 
+a{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+
+
+#circle {
+  width: 300px;
+  height: 260px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50%;
+  background-image: url("/app/images/home1.jpg");
+  background-size: 100% 100%;
+}
+
+.intro-text{
+  font-family: "Vollkorn", "PT Mono", serif;
+  font-style: italic;
+}
+
 .video-div{
   position: relative;
 }
@@ -15,12 +40,21 @@ video{
   max-height: 100%;
 }
 
+#school{
+  color: #ff6666;
+}
+
+.github-link{
+  color: #80ccff;
+}
+
 .box{
-  height: 300px;
+  height: 350px;
   width: 80%;
   margin: 0 auto;
   align-items: center;
-  background-size: 100% 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .box:hover{
@@ -36,8 +70,7 @@ video{
 }
 
 #box4{
-  background-image: url("../images/github.png");
-  
+  background-image: url("../images/project4.png");
 }
 
 
@@ -67,7 +100,7 @@ video{
 
 }
 
-.intro-text{
+.main-text{
   font-size: 1.4em;
   font-family: "Ubuntu", serif
 }
@@ -190,8 +223,18 @@ video{
   color: black;
 }
 
+
+.project-intro-text{
+  font-family: "Vollkorn", "PT Mono", serif;
+  font-style: italic;
+  font-size: 1.3em;
+}
 .project-title{
   text-align: center;
   color: white;
+  font-size: 1.4em;
+}
+
+.project-text{
   font-size: 1.2em;
 }
