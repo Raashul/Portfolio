@@ -69,8 +69,8 @@ video{
   background-image: url("../images/project2.png");
 }
 
-#box4{
-  background-image: url("../images/project4.png");
+#box3{
+  background-image: url("../images/project3.png");
 }
 
 
@@ -235,6 +235,10 @@ video{
 }
 .project-title{
   text-align: center;
+  color: white;
+}
+
+.project-title:hover{
   color: white;
 }
 
