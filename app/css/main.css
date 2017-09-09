@@ -171,11 +171,10 @@ video{
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: rgb(238,239,229);
 }
 
 .email-button{
-  color: rgb(116,158,241);
+  color: black;
 }
 
 
