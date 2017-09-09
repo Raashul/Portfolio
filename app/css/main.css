@@ -40,9 +40,11 @@ video{
   max-height: 100%;
 }
 
-#school{
-  color: #ff6666;
+
+.why_me{
+  height: 200px;
 }
+
 
 .github-link{
   color: #80ccff;
