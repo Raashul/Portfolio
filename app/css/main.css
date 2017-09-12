@@ -40,9 +40,6 @@ video{
   max-height: 100%;
 }
 
-.github-link{
-  color: #80ccff;
-}
 
 .box{
   height: 350px;
@@ -108,8 +105,8 @@ video{
 
 .resume-button{
   border-style: solid;
-  border-color: #00a3cc;
-  color: #00a3cc;
+  border-color: black;
+  color: rgb(43,43,43);
 }
 
 .main-body{
